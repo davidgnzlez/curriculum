@@ -1,0 +1,43 @@
+* {
+    /* box-sizing: border-box;
+    outline: 1px solid limegreen !important; */
+    font-family: sans-serif;
+
+}
+
+body {
+    margin: auto 50px;
+}
+
+#firstblock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#foto {
+    margin: 30px 30px 30px 0px;
+    border-radius: 100%;
+    width: 150px;
+    height: 160px;
+}
+
+.contact{
+    margin: 8px;
+}
+
+#description{
+    margin-left: 50px;
+}
+
+#experience {
+    margin-left: 175px;
+}
+
+#estudies {
+    margin-left: 175px;
+}
+
+.span{
+    margin-bottom: 100px;
+}
