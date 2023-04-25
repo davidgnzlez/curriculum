@@ -1,43 +1,94 @@
 * {
     /* box-sizing: border-box;
     outline: 1px solid limegreen !important; */
-    font-family: sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
 }
-
 body {
     margin: auto 50px;
 }
-
 #firstblock {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 #foto {
     margin: 30px 30px 30px 0px;
     border-radius: 100%;
     width: 150px;
     height: 160px;
 }
-
 .contact{
     margin: 8px;
 }
-
 #description{
     margin-left: 50px;
 }
-
 #experience {
     margin-left: 175px;
+    margin-top: 50px;
 }
-
 #estudies {
     margin-left: 175px;
 }
-
 .span{
     margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 880px){
+    body {
+        margin: auto 30px;
+}
+    #firstblock {
+    flex-direction: column;
+}
+    #experience {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+    #estudies {
+    margin-left: 50px;
+}
+}
+
+@media only screen and (max-width: 640px){
+    *{
+        font-size: 16px;
+    }
+    body {
+        margin: auto 20px;
+}
+    #experience {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+    #estudies {
+    margin-left: 20px;
+}
+#description{
+    margin-left: 20px;
+}
+}
+
+@media only screen and (max-width: 440px){
+    #foto {
+        margin: 20px 20px 20px 0px;
+        width: 100px;
+        height: 110px;
+    }
+    *{
+        font-size: 13px;
+    }
+    body {
+        margin: auto 10px;
+}
+    #experience {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+    #estudies {
+    margin-left: 10px;
+}
+#description{
+    margin-left: 10px;
+}
 }
