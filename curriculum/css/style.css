@@ -4,51 +4,63 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    margin: auto 50px;
+    margin: auto 60px;
+}
+.title {
+    margin-left: 175px;
 }
 #firstblock {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-#foto {
+.image-profile {
     margin: 30px 30px 30px 0px;
     border-radius: 100%;
     width: 150px;
     height: 160px;
 }
-.contact{
-    margin: 8px;
-}
-#description{
+.description{
     margin-left: 50px;
-}
-#experience {
-    margin-left: 175px;
-    margin-top: 50px;
 }
 #estudies {
     margin-left: 175px;
 }
-.span{
-    margin-bottom: 100px;
+.skills {
+    margin-left: 175px;
+    margin-top: 40px;
+}
+#experience {
+    margin-left: 175px;
+    margin-top: 40px;
+}
+.contact{
+    margin: 8px;
 }
 
 @media only screen and (max-width: 880px){
     body {
         margin: auto 30px;
-}
+    }
+    .title {
+        margin-left: 50px;
+    }
     #firstblock {
-    flex-direction: column;
-}
-    #experience {
-    margin-left: 50px;
-    margin-top: 30px;
-}
+        flex-direction: column;
+    }
     #estudies {
-    margin-left: 50px;
+        margin-left: 50px;
+    }
+    .skills {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    #experience {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
 }
-}
+
 
 @media only screen and (max-width: 640px){
     *{
@@ -56,39 +68,53 @@ body {
     }
     body {
         margin: auto 20px;
-}
-    #experience {
-    margin-left: 20px;
-    margin-top: 20px;
-}
+    }
+    .title {
+        margin-left: 20px;
+    }
+    .description{
+        margin-left: 20px;
+    }
     #estudies {
-    margin-left: 20px;
-}
-#description{
-    margin-left: 20px;
-}
+        margin-left: 20px;
+    }
+    .skills {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+     #experience {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 440px){
-    #foto {
-        margin: 20px 20px 20px 0px;
-        width: 100px;
-        height: 110px;
-    }
     *{
         font-size: 13px;
     }
     body {
         margin: auto 10px;
-}
-    #experience {
-    margin-left: 10px;
-    margin-top: 10px;
-}
+    }
+    .title {
+        margin-left: 10px;
+    }
+    .image-profile {
+        margin: 20px 20px 20px 0px;
+        width: 100px;
+        height: 110px;
+    }
+    .description{
+        margin-left: 10px;
+    }
     #estudies {
-    margin-left: 10px;
-}
-#description{
-    margin-left: 10px;
-}
+        margin-left: 10px;
+    }
+    .skills {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #experience {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 }
